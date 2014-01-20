@@ -33,6 +33,8 @@
 		039285EE14CE0B8600D02672 /* SNRHUDScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 039285EC14CE0B8500D02672 /* SNRHUDScrollView.m */; };
 		039285F114CE0C1100D02672 /* SNRHUDImageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 039285EF14CE0C1000D02672 /* SNRHUDImageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		039285F214CE0C1100D02672 /* SNRHUDImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039285F014CE0C1000D02672 /* SNRHUDImageCell.m */; };
+		F70BF33F188D19FF007AB9F5 /* SNRHUDPopUpButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F70BF33D188D19FF007AB9F5 /* SNRHUDPopUpButtonCell.h */; };
+		F70BF340188D19FF007AB9F5 /* SNRHUDPopUpButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F70BF33E188D19FF007AB9F5 /* SNRHUDPopUpButtonCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,8 @@
 		039285EC14CE0B8500D02672 /* SNRHUDScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNRHUDScrollView.m; path = Classes/SNRHUDScrollView.m; sourceTree = "<group>"; };
 		039285EF14CE0C1000D02672 /* SNRHUDImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNRHUDImageCell.h; path = Classes/SNRHUDImageCell.h; sourceTree = "<group>"; };
 		039285F014CE0C1000D02672 /* SNRHUDImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNRHUDImageCell.m; path = Classes/SNRHUDImageCell.m; sourceTree = "<group>"; };
+		F70BF33D188D19FF007AB9F5 /* SNRHUDPopUpButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNRHUDPopUpButtonCell.h; sourceTree = "<group>"; };
+		F70BF33E188D19FF007AB9F5 /* SNRHUDPopUpButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNRHUDPopUpButtonCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,8 @@
 				039285EC14CE0B8500D02672 /* SNRHUDScrollView.m */,
 				039285EF14CE0C1000D02672 /* SNRHUDImageCell.h */,
 				039285F014CE0C1000D02672 /* SNRHUDImageCell.m */,
+				F70BF33D188D19FF007AB9F5 /* SNRHUDPopUpButtonCell.h */,
+				F70BF33E188D19FF007AB9F5 /* SNRHUDPopUpButtonCell.m */,
 			);
 			path = SNRHUDKit;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 				039285E914CE0B4300D02672 /* SNRHUDTextView.h in Headers */,
 				039285ED14CE0B8600D02672 /* SNRHUDScrollView.h in Headers */,
 				039285F114CE0C1100D02672 /* SNRHUDImageCell.h in Headers */,
+				F70BF33F188D19FF007AB9F5 /* SNRHUDPopUpButtonCell.h in Headers */,
 				039285CE14CCE82700D02672 /* NSBezierPath+MCAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0392859814CCCC4B00D02672 /* SNRHUDSegmentedCell.m in Sources */,
+				F70BF340188D19FF007AB9F5 /* SNRHUDPopUpButtonCell.m in Sources */,
 				039285CF14CCE82700D02672 /* NSBezierPath+MCAdditions.m in Sources */,
 				039285D314CCF39B00D02672 /* SNRHUDWindow.m in Sources */,
 				039285D714CDE58800D02672 /* SNRHUDTextFieldCell.m in Sources */,
