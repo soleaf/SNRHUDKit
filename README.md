@@ -15,6 +15,7 @@ As of Xcode 4, IBPlugins are no longer supported. Therefore, you will need to ei
 * Text view (`SNRHUDTextView`)
 * Rounded and checkbox buttons (`SNRHUDButtonCell`)
 * Text field (`SNRHUDTextFieldCell`)
+* NSPopupButton (`SNRHUDPopUpButtonCell`)
 
 Here's a mockup of what the complete set of elements will look like:
 
